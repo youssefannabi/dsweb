@@ -1,0 +1,392 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #cff1d6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 52px;
+  margin-left: 559px;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: #28a745;
+}
+
+.navbar .register-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.hero {
+  background-color: #e9f7ef;
+  padding: 50px 20px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content h1 {
+  font-size: 2.5em;
+  color: #1e7e34;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.hero-content .cta-btn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content .cta-btn:hover {
+  background-color: #218838;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.partners {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9fdfc;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.partners h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.partners .logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.partners .logos img {
+  width: 100px;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partners .logos img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #28a745;
+  padding: 10px;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.carousel-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.carousel-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 80%;
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.carousel {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  height: 395px;
+}
+
+.carousel-img1,
+.carousel img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.carousel-img1,
+.carousel img.active {
+  opacity: 1;
+}
+
+.text-box {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #e9f7ef;
+}
+
+.text-box h2 {
+  margin-bottom: 20px;
+}
+
+.text-box p {
+  color: #555;
+}
+
+#contact {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#contactForm label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+}
+
+#contactForm input,
+#contactForm textarea,
+#contactForm button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contactForm button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#contactForm button:hover {
+  background: #45a049;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+#timeline {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.timeline-container {
+  position: relative;
+  margin: 0 auto;
+  padding-left: 2rem;
+  border-left: 4px solid #ccc;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.timeline-item p {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  background: #9dd7a1;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item:before {
+  content: attr(data-date);
+  position: absolute;
+  left: -3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: #000000;
+}
+
+.timeline-item.active {
+  opacity: 1;
+  transform: translateX(10px);
+}
+
+.timeline-item.active:before {
+  color: #4CAF50;
+  font-size: 30px;
+  margin-left: -66px;
+}
+
+.timeline-item p {
+  transition: background-color 0.3s ease;
+}
+
+.proj-section {
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.proj-box {
+  flex: 1;
+  padding: 28px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #e9f7ef;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin: 25px;
+}
+
+.proj-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.proj-box h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.proj-box p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.proj-details {
+  display: none;
+  margin-top: 15px;
+}
+
+.proj-box.active .proj-details {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+#quiz-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.question:hover {
+  transform: translateY(-10px);
+}
+
+.question.correct {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.question.incorrect {
+  background-color: #b85049;
+  color: white;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3ec543;
+}
